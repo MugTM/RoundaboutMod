@@ -210,10 +210,10 @@ public class PowersGoldExperience extends NewPunchingStand {
         switch (soundChoice)
         {
             case SoundIndex.BARRAGE_CRY_SOUND -> {
-                return ModSounds.GOLD_EXPERIENCE_BARRAGE_EVENT;
+                return ModSounds.KILLER_QUEEN_BARRAGE_EVENT;
             }
             case SoundIndex.SUMMON_SOUND -> {
-                return ModSounds.GOLD_EXPERIENCE_SUMMON_EVENT;
+                return ModSounds.KILLER_QUEEN_SUMMON_EVENT;
             }
         }
         return super.getSoundFromByte(soundChoice);
